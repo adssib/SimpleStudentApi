@@ -1,0 +1,8 @@
+mkdir my-api-project //this make a new directory 
+cd my-api-project //this will change the directory to enter the one you just created 
+npm init -y //initialize the node package manager andcreate a package.json file
+code . //to open VS code in the directory you are on rn 
+npm install express json-server // dont forget to download your packages and also we dont upload them to github 
+//if someone wants to use our same code, to not have trouble the package-lock.json is there to fix the packages versions and not have trouble 
+just type npm i, on the same file you want npm will them go to package-lock.json and will download the same packages versions i used to do my project 
+node app.js //this will run our code and will publish it to a port on our localhost and we can read it throught out another file without worrying abt CORS policy
